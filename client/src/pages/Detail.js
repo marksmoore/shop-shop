@@ -4,7 +4,7 @@ import { useQuery } from '@apollo/react-hooks';
 
 import Cart from "../components/Cart";
 //old method
-import { useStoreContext } from "../utils/GlobalState";
+//import { useStoreContext } from "../utils/GlobalState";
 //new method
 import { useReduxStore } from "../redux/store";
 
